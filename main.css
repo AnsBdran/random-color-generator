@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+
+/* ======================================================== */
+/* General styles ========================================== */
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+* {
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button, input {
+    font: inherit;
+}
+
+/* ======================================================== */
+/* General styles ========================================== */
+header {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* ======================================================== */
+/* General styles ========================================== */
+main {
+    display: flex;
+    padding: 2rem;
+    gap: 3rem;
+    border: 2px solid red;
+    width: max-content;
+    margin-inline: auto;
+}
+
+.color-input {
+    border: 2px solid red;
+    /* padding: rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.btn {
+    width: 15rem;
+    height: 3rem;
+}
+
+input {
+    padding: .2em .4em ;
+}
+
+/* ======================================================== */
+/* General styles ========================================== */
+
+.target {
+    border: 2px solid red;
+    padding: 5rem;
+
+}
