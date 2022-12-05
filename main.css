@@ -1,98 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
 
-
 /* ======================================================== */
 /* General styles ========================================== */
 body {
-    font-family: 'Titillium Web', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 :root {
-    --color: #333;
+  --color: #333;
 }
 * {
-    outline: none;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-button, input {
-    font: inherit;
+button,
+input {
+  font: inherit;
 }
 
 /* ======================================================== */
 /* General styles ========================================== */
 header {
-    padding: 2rem;
-    text-align: center;
+  padding: 2rem;
+  text-align: center;
 }
 
 /* ======================================================== */
 /* Input styles ========================================== */
 main {
-    display: flex;
-    padding: 4rem;
-    gap: 3rem;
-    border: 5px solid var(--color);
-    width: max-content;
-    margin-inline: auto;
-    font-size: 1.3em;
-    box-shadow: inset 2px 2px 12px #333;
+  display: flex;
+  padding: 4rem;
+  gap: 3rem;
+  border: 5px solid var(--color);
+  width: max-content;
+  margin-inline: auto;
+  font-size: 1.3em;
+  box-shadow: inset 2px 2px 12px #333;
 }
 
 .color-input {
-    /* border: 2px solid red; */
-    /* padding: rem; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .btn {
-    /* width: 15rem; */
-    height: 3rem;
-    background-color: darkblue;
-    color: #eee;
-    width: 100%;
-    border: none;
-    cursor: pointer;
+  height: 3rem;
+  background-color: #222;
+  color: #eee;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
 }
 
 .btn:hover {
-    background: none;
-    color: #333;
-    font-weight: 600;
-    border: 2.5px dashed var(--color);
+  background: none;
+  color: #333;
+  border: 2.5px dashed var(--color);
 }
 
 input {
-    padding: .2em .4em ;
-    border: none;
-    border: .5px solid var(--color);
+  padding: 0.2em 0.4em;
+  border: none;
+  border: 0.5px solid var(--color);
 }
 
 .text {
-    border: .5px solid var(--color);
-    border-top: none;
-    flex: 1;
-    padding-top: 1.2rem;
-    /* vertical-align: middle; */
+  border: 0.5px solid var(--color);
+  border-top: none;
+  flex: 1;
+  padding-top: 1.2rem;
 }
 .or {
-    display: block;
+  display: block;
 }
 
 /* ======================================================== */
-/* General styles ========================================== */
+/* target styles ========================================== */
 
 .target {
-    border: .2px solid var(--color);
-    /* padding: 5rem; */
-    width: 20rem;
-height: 12rem;
-display: flex;
-justify-content: center;
-align-items: center;
+  border: 0.2px solid var(--color);
+  width: 20rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
